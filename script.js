@@ -9,7 +9,7 @@
             // adds a new node to the end of the list
             append(value) {
                 let newNode = Node(value);
-                
+
                 if(this.head === null){
                     this.head = newNode;
 
@@ -195,5 +195,6 @@
     };
 
     const list = LinkedList();
+    // 
 
     // list.function()
